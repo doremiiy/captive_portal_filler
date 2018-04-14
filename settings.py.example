@@ -1,0 +1,12 @@
+'''
+Settings file
+'''
+
+LOG_FORMAT = '%(asctime)s => %(levelname)s:%(message)s'
+
+EMAIL_INPUT = 'my_email'
+PASSWORD_INPUT = 'my_password'
+
+TIME_BETWEEN_CHECK = 20
+
+SELENIUM_SERVER = 'http://172.17.0.2:4444/wd/hub'
